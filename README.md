@@ -2,10 +2,10 @@
 
 ## [Install Nodejs & npm](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.oy5bora8spry)
 ## [Installing Atom](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.vl0uhfmh9uno)
-###    [Debian and Ubuntu (deb/apt)](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.5xdx9h3ocz4o)
-## Modules in Nodejs
-## Using require:
-### File System
+  * [Debian and Ubuntu (deb/apt)](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.5xdx9h3ocz4o)
+## [Modules in Nodejs](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.yzopqiukz4u2)
+## [Using require:](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.soocvykifr9a)
+  * [File System](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.l6ivpo6e22oc)
   
 ```javascript
 fs.appendFile(path, data[, options], callback) // To create a new file
@@ -13,17 +13,17 @@ fs.appendFile(path, data[, options], callback) // To create a new file
 fs.appendFileSync(path, data[, options]) // Synchronously append data to a file, creating the file if it does not yet exist. data can be a string or a Buffer.
 ```
 
-OS - os.userInfo([options])
+  * [OS - os.userInfo([options])](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.h8hkyhatn9nr)
 
-require own file
+## [require own file](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.jajt3iz4a0zb)
 
-Function module.exports():
+  * Function module.exports():
 
-Add result:
+  * Add result:
 
-Using 3th Party Modules
+## [Using 3th Party Modules](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.3c00aufikzz0)
 
-npm init  to create package.json file in our project, were will be saved requirements for the app
+  * npm init  to create package.json file in our project, were will be saved requirements for the app
 
 $ npm -v
 
