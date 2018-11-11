@@ -29,17 +29,17 @@ npm init  to create package.json file in our project, were will be saved require
 
   * $ npm init
 
-#### Install npm packages:
+#### [Install npm packages:](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.gfcty8gprugw)
 
   * Install  _lodash
 
-#### Restarting App With Nodemon
+#### [Restarting App With Nodemon](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.uulhck5gq91p)
 
   * $ sudo npm install nodemon -g
 
   * $ nodemon app.js
 
-#### Getting Input From User
+#### [Getting Input From User](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.nzv2sqntmm3w)
 
 Add console.log(process.argv); to see processes of add or list note:
 
@@ -49,7 +49,7 @@ Add commands read & remove:
 
 Adding views processes & remove title
 
-#### Install Yargs - Simplified Input With Yargs
+#### [Install Yargs - Simplified Input With Yargs](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.lbdfj8kixvah)
 
 In app.js:
 
@@ -75,9 +75,9 @@ in notes.js:
 // Adding module notes.removeNote(argv.title); to remove note:
 ```
 
-## Working With JSON
+## [Working With JSON](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.kogkb4innmm7)
 
-## Adding & Saving Note to json file
+## [Adding & Saving Note to json file](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.7hu2f5aipnjp)
 
 In notes.js:
 
@@ -113,15 +113,15 @@ In app.js:
 
 Adding logNote module:
 
-## Debugging Node.js Application
+## [Debugging Node.js Application](https://docs.google.com/document/d/1yLMU3XTXKvuIH-aKQsk9tCsyffmkdLDJnmqa2tcM-5E/edit)
 
-## Requiring Arguments And Advanced Yargs: Set --help with Yargs
+## [Requiring Arguments And Advanced Yargs: Set --help with Yargs](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.mykzq1sx6u2f)
 
   * In app.js:
 
-## Arrow Functions
+## [Arrow Functions](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.dus2sfnaao5g)
 
-## Adding Version Control (Git)
+## [Adding Version Control (Git)](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.vbzcn6bb33nr)
 
   * Create .gitignore file to ignore directory node_modules/
 
