@@ -1,10 +1,10 @@
 # Node.js Fundamentals (Note App)
 
-## 1. [Install Nodejs & npm](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.oy5bora8spry)
-## 2. Installing Atom
-###    Debian and Ubuntu (deb/apt)
-## 3. Modules in Nodejs
-## 4. Using require:
+## [Install Nodejs & npm](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.oy5bora8spry)
+## [Installing Atom](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.vl0uhfmh9uno)
+###    [Debian and Ubuntu (deb/apt)](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.5xdx9h3ocz4o)
+## Modules in Nodejs
+## Using require:
 ### File System
   
 ```javascript
