@@ -3,8 +3,7 @@
 
 ## 1. Install Nodejs & npm
 ## 2. Installing Atom
-  
-### Debian and Ubuntu (deb/apt)
+>> Debian and Ubuntu (deb/apt)
   
   Modules in Nodejs
   
