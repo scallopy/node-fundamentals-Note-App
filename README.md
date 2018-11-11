@@ -1,19 +1,17 @@
-# node-fundamentals-Note-App
 # Node.js Fundamentals (Note App)
 
 ## 1. Install Nodejs & npm
 ## 2. Installing Atom
->> Debian and Ubuntu (deb/apt)
+###    Debian and Ubuntu (deb/apt)
+## 3. Modules in Nodejs
+## 4. Using require:
+### File System
   
-  Modules in Nodejs
-  
-  Using require:
-  
-  File System
-  
-f s.appendFile(path, data[, options], callback) - To create a new file
+```javascript
+fs.appendFile(path, data[, options], callback) // To create a new file
 
-fs.appendFileSync(path, data[, options]) - Synchronously append data to a file, creating the file if it does not yet exist. data can be a string or a Buffer.
+fs.appendFileSync(path, data[, options]) // Synchronously append data to a file, creating the file if it does not yet exist. data can be a string or a Buffer.
+```
 
 OS - os.userInfo([options])
 
