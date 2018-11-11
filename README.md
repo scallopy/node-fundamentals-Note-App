@@ -29,17 +29,17 @@ npm init  to create package.json file in our project, were will be saved require
 
   * $ npm init
 
-  * Install npm packages
+#### Install npm packages:
 
-1. Install  _lodash
+  * Install  _lodash
 
-2. Restarting App With Nodemon
+#### Restarting App With Nodemon
 
   * $ sudo npm install nodemon -g
 
   * $ nodemon app.js
 
-3. Getting Input From User
+#### Getting Input From User
 
 Add console.log(process.argv); to see processes of add or list note:
 
@@ -49,7 +49,7 @@ Add commands read & remove:
 
 Adding views processes & remove title
 
-4. Install Yargs - Simplified Input With Yargs
+#### Install Yargs - Simplified Input With Yargs
 
 In app.js:
 
@@ -78,6 +78,8 @@ in notes.js:
 ## Working With JSON
 
 ## Adding & Saving Note to json file
+
+In notes.js:
 
 ```javascript
 // Create fetchNotes();
@@ -111,36 +113,6 @@ In app.js:
 
 Adding logNote module:
 
-```javascript
-// Create fetchNotes();
-
-// try to read JSON file: 'notes-data.json'
-
-// Create saveNotes(notes);
-
-// Adding module notes.addNote(argv.title, argv.body); to add note
-
-// Make title uniq
-
-//Adding module notes.getAll(); to list notes
-
-//Adding module notes.getNote(argv.title); to read note
-
-// Adding module removeNote(argv.ttitle); to remove note
-```
-
-In app.js:
-
-```javascript
-//Adding module notes.addNote(argv.title, argv.body); to add note
-
-// Adding module  notes.getAll(); to list notes
-
-// Adding module notes.getNote(argv.title); to read note
-
-// Adding module notes.removeNote(argv.title); to remove note
-```
-
 ## Debugging Node.js Application
 
 ## Requiring Arguments And Advanced Yargs: Set --help with Yargs
@@ -167,9 +139,8 @@ In app.js:
 
   * Adding a new SSH key to your GitHub account
 
-In terminal
 
 In github => Create new repository, then:
 
-…or push an existing repository from the command line
+  …or push an existing repository from the command line
 
