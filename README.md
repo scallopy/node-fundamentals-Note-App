@@ -4,7 +4,7 @@
 ## [Installing Atom](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.vl0uhfmh9uno)
   * [Debian and Ubuntu (deb/apt)](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.5xdx9h3ocz4o)
 ## [Modules in Nodejs](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.yzopqiukz4u2)
-## [Using require:](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.soocvykifr9a)
+### 1. [Using require:](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.soocvykifr9a)
   * [File System](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.l6ivpo6e22oc)
   
 ```javascript
@@ -15,33 +15,31 @@ fs.appendFileSync(path, data[, options]) // Synchronously append data to a file,
 
   * [OS - os.userInfo([options])](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.h8hkyhatn9nr)
 
-## [require own file](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.jajt3iz4a0zb)
+### 2. [require own file](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.jajt3iz4a0zb)
 
   * Function module.exports():
 
   * Add result:
 
-## [Using 3th Party Modules](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.3c00aufikzz0)
+### 3. [Using 3th Party Modules](https://docs.google.com/document/d/1yQ84xrJRr2Km0zYWSETtDu10_cIijNe5ckb-FeNecx8/edit#heading=h.3c00aufikzz0)
 
-  * npm init  to create package.json file in our project, were will be saved requirements for the app
+npm init  to create package.json file in our project, were will be saved requirements for the app
 
-$ npm -v
+  * $ npm -v
 
-$ npm init
+  * $ npm init
 
-Install npm packages
+  * Install npm packages
 
-Install  _lodash
+1. Install  _lodash
 
-Install
+2. Restarting App With Nodemon
 
-Restarting App With Nodemon
+  * $ sudo npm install nodemon -g
 
-$ sudo npm install nodemon -g
+  * $ nodemon app.js
 
-$ nodemon app.js
-
-Getting Input From User
+3. Getting Input From User
 
 Add console.log(process.argv); to see processes of add or list note:
 
@@ -51,10 +49,11 @@ Add commands read & remove:
 
 Adding views processes & remove title
 
-Install Yargs - Simplified Input With Yargs
+4. Install Yargs - Simplified Input With Yargs
 
 In app.js:
 
+```javascript
 //Adding module notes.addNote(argv.title,argv.body); to add note
 
 // Adding module  notes.getAll(); to list notes
@@ -62,9 +61,11 @@ In app.js:
 // Adding module notes.getNote(argv.title); to read note
 
 // Adding module notes.removeNote(argv.title); to remove note
+```
 
 in notes.js:
 
+```javascript
 // Adding module notes.addNote(argv.title, argv.body); to add note
 
 // Adding  module notes.getAll(); to list notes
@@ -72,11 +73,13 @@ in notes.js:
 // Adding module notes.getNote(argv.title); to read note
 
 // Adding module notes.removeNote(argv.title); to remove note:
+```
 
-Working With JSON
+## Working With JSON
 
-Adding & Saving Note to json file
+## Adding & Saving Note to json file
 
+```javascript
 // Create fetchNotes();
 
 // read JSON file: 'notes-data.json'
@@ -92,9 +95,11 @@ Adding & Saving Note to json file
 //Adding module notes.readNote(argv.title); to read note
 
 // Adding module removeNote(argv.title); to remove note
+```
 
 In app.js:
 
+```javascript
 //Adding module notes.addNote(argv.title, argv.body); to add note
 
 // Adding module  notes.getAll(); to list notes
@@ -102,9 +107,11 @@ In app.js:
 // Adding module notes.getNote(argv.title); to read note
 
 // Adding module notes.removeNote(argv.title); to remove note
+```
 
 Adding logNote module:
 
+```javascript
 // Create fetchNotes();
 
 // try to read JSON file: 'notes-data.json'
@@ -120,9 +127,11 @@ Adding logNote module:
 //Adding module notes.getNote(argv.title); to read note
 
 // Adding module removeNote(argv.ttitle); to remove note
+```
 
 In app.js:
 
+```javascript
 //Adding module notes.addNote(argv.title, argv.body); to add note
 
 // Adding module  notes.getAll(); to list notes
@@ -130,32 +139,33 @@ In app.js:
 // Adding module notes.getNote(argv.title); to read note
 
 // Adding module notes.removeNote(argv.title); to remove note
+```
 
-Debugging Node.js Application
+## Debugging Node.js Application
 
-Requiring Arguments And Advanced Yargs: Set --help with Yargs
+## Requiring Arguments And Advanced Yargs: Set --help with Yargs
 
-In app.js:
+  * In app.js:
 
-Arrow Functions
+## Arrow Functions
 
-Adding Version Control (Git)
+## Adding Version Control (Git)
 
-Create .gitignore file to ignore directory node_modules/
+  * Create .gitignore file to ignore directory node_modules/
 
-Setting Up GitHub & SSH Keys
+  * Setting Up GitHub & SSH Keys
 
-Checking for existing SSH keys
+  * Checking for existing SSH keys
 
-Generating a new SSH key
+  * Generating a new SSH key
 
-Adding your SSH key to the ssh-agent
+  * Adding your SSH key to the ssh-agent
 
-Add your SSH private key to the ssh-agent
+  * Add your SSH private key to the ssh-agent
 
-Configure Github
+  * Configure Github
 
-Adding a new SSH key to your GitHub account
+  * Adding a new SSH key to your GitHub account
 
 In terminal
 
